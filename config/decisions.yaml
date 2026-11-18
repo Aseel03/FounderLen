@@ -1,0 +1,14 @@
+schema_version: 1
+money:
+  currency: USD  # Placeholder: change to the currency used by the business.
+  decimal_places: 2
+  rounding: ROUND_HALF_EVEN
+burn:
+  window_days: 30
+  low_confidence_below_days: 14
+runway:
+  undefined_when_net_burn_lte: 0  # No burn means runway is undefined, not infinite.
+churn:
+  undefined_when_start_customers: 0
+revenue:
+  recognition: monthly_billing_no_deferral

@@ -1,0 +1,6 @@
+# Demo placeholders; tune these values against real cases before relying on them.
+schema_version: 1
+monthly_revenue:
+  pre_revenue_max: 0
+  early_revenue_max: 10000
+  growing_max: 100000
